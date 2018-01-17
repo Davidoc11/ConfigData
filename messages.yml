@@ -1,4 +1,0 @@
----
-error:
-  emailEmpty: El email no puede ser nulo
-  emailPattern: El email no cumple con el formato requerido
