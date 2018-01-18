@@ -5,7 +5,7 @@ eureka:
       defaultZone: http://localhost:8010/eureka/
 spring:
   jpa:
-    hibernate.ddl-auto: update
+    hibernate.ddl-auto: validate
   datasource:
     url: jdbc:mysql://localhost:3306/personas
     username: root
