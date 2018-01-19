@@ -1,7 +1,0 @@
----
-jwt:
-  secret: SecretKeyToGenJWTs
-  expirationTime: 20000
-  tokenPrefix: Bearer 
-  header: Authorization
-  signUpUrl: /users
