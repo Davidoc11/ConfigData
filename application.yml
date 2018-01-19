@@ -16,9 +16,3 @@ logging:
   pattern:
     console: '%d{dd-MM-yyyy HH:mm:ss.SSS} %cyan([%thread]) %green(%-5level) %logger.%M - %msg%n'
 name: Hola Mundo MySQL
-jwt:
-  secret: SecretKeyToGenJWTs
-  expirationTime: 20000
-  tokenPrefix: Bearer 
-  header: Authorization
-  signUpUrl: /users
