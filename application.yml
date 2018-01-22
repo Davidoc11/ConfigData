@@ -19,6 +19,6 @@ name: Hola Mundo MySQL
 jwt:
   secret: SecretKeyToGenJWTs
   expiration: 8600_000
-  prefix: Bearer 
+  prefix: 'Bearer '
   header: Authorization
   sign: /users
